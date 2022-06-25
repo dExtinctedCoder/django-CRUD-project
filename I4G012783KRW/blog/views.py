@@ -30,6 +30,6 @@ class PostListView(ListView):
   # fields = Post.objects.all()
 
 
-class PostDeleteView(DeleteView):
+class PostDetailView(DeleteView):
   model = Post
   # fields = Post.objects.all()
